@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color:white;
+  }
+  
+  h1{
+    text-align:center;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  
+  p{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .possibleAnswers{
+    text-align: center;
+    
+    
+  }
+  .answer1{
+    margin-top:30px;
+  
+  }
+  .answer2{
+    margin-top:30px;
+  }
+  .answer3{
+    margin-top:30px;
+  }
+  .answer4{
+    margin-top:30px;
+    margin-bottom: 20px;
+  }
+  
+  .questionCount{
+    background: #BAC1B8;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+    text-align:center;
+  }
+  .nav{
+    list-style-type: none;
+    
+    
+  }
+  
+  li{
+    display:inline;
+    
+  }
+  
+  .nav-bar{
+    text-align: center;
+  }
+  
+  .userScore{
+    background: grey;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    text-align:center;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .startBox{
+    height: 490px;
+    width: 450px;
+    background: #BAC1B8;
+    margin: auto;
+    padding-top: 50px;
+  }
+  
+  .mainBox{
+  
+    height: 410px;
+    width: 400px;
+    background: grey;
+    margin: auto;
+    
+   
+  }
+  
+  .my-button{
+    /*
+    margin-top: 30px;
+    position: relative;
+    left: 170px;
+    */
+    
+    height: 40px;
+    width: 110px;
+    border: solid black 1px;
+    font-size: 16px;
+    /*position: absolute;*/
+    background-color: red;
+    margin-left: 150px;
+    margin-top: 25px;
+    position: relative;
+  }
